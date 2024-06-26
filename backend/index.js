@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 app.use(cors());
 app.use(express.json());
 express.urlencoded({ extended: true });
-mongoose.connect("mongodb+srv://hgoutam2001:crud@data.gdyhcf2.mongodb.net/")
+mongoose.connect("")
     .then(() => {
         console.log("mongodb connected");
     })
